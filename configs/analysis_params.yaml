@@ -1,0 +1,30 @@
+project:
+  name: single-cell-analysis
+  organism: human
+  assay: scRNA-seq
+
+quality_control:
+  min_genes_per_cell: 200
+  max_genes_per_cell: 6000
+  max_mito_percent: 20
+  min_cells_per_gene: 3
+
+normalization:
+  method: log_normalize
+  scale_factor: 10000
+  n_highly_variable_genes: 2000
+
+dimension_reduction:
+  n_pcs: 30
+  clustering_resolution: 0.5
+  random_seed: 1234
+
+integration:
+  enabled: false
+  batch_key: batch
+  method: harmony
+
+outputs:
+  figures_dir: results/figures
+  tables_dir: results/tables
+  objects_dir: results/objects
