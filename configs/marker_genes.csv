@@ -1,0 +1,14 @@
+cell_type,marker_gene
+T cells,CD3D
+T cells,CD3E
+CD4 T cells,CD4
+CD8 T cells,CD8A
+B cells,MS4A1
+Plasma cells,MZB1
+NK cells,NKG7
+Monocytes,LYZ
+Macrophages,CD68
+Dendritic cells,FCER1A
+Endothelial cells,PECAM1
+Fibroblasts,COL1A1
+Epithelial cells,EPCAM
