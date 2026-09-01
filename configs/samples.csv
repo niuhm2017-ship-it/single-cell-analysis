@@ -1,0 +1,3 @@
+sample_id,group,batch,data_path,notes
+sample_01,control,batch_1,data/raw/sample_01/filtered_feature_bc_matrix,example control sample
+sample_02,treatment,batch_1,data/raw/sample_02/filtered_feature_bc_matrix,example treatment sample
